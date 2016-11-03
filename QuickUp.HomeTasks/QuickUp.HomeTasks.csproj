@@ -41,6 +41,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,6 +57,30 @@
     <Compile Include="Day1\DB\code_first\IRepository.cs" />
     <Compile Include="Day1\DB\code_first\Student.cs" />
     <Compile Include="Day1\DB\code_first\StudentRepository.cs" />
+    <Compile Include="Day1\DB\db_first\C__MigrationHistory.cs">
+      <DependentUpon>Student.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\DB\db_first\Groups.cs">
+      <DependentUpon>Student.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\DB\db_first\Student.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Student.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\DB\db_first\Student.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Student.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\DB\db_first\Student.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Student.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Day1\DB\db_first\Students.cs">
+      <DependentUpon>Student.tt</DependentUpon>
+    </Compile>
     <Compile Include="Day1\Solid\D\Mobile_phone.cs" />
     <Compile Include="Day1\Solid\D\Tech.cs" />
     <Compile Include="Day1\Solid\I\Car.cs" />
@@ -86,11 +112,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <EntityDeploy Include="Day1\DB\db_first\Student.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Student.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Day1\DB\db_first\Student.edmx.diagram">
+      <DependentUpon>Student.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Day1\DB\db_first\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611031954079_InitialCreate.resx">
       <DependentUpon>201611031954079_InitialCreate.cs</DependentUpon>
@@ -98,6 +129,21 @@
     <EmbeddedResource Include="Migrations\201611032116457_AddGroup.resx">
       <DependentUpon>201611032116457_AddGroup.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Day1\DB\db_first\Student.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Student.edmx</DependentUpon>
+      <LastGenOutput>Student.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Day1\DB\db_first\Student.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Student.edmx</DependentUpon>
+      <LastGenOutput>Student.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
