@@ -7,13 +7,13 @@ using System.Data.Entity;
 
 namespace QuickUp.HomeTasks.Day1.DB.code_first
 {
-    class StudentContext:DbContext
+    class GroupContext:DbContext
     {
-        public StudentContext(): base("DbConnection")
+        public GroupContext()
+            : base("DbConnection")
         {
 
         }
-        public DbSet<Student> Students { get; set; }
-    
+        public DbSet<Group> Groups { get; set; }
     }
 }

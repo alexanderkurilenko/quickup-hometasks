@@ -11,5 +11,7 @@ namespace QuickUp.HomeTasks.Day1.DB.code_first
         public int Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
+        public int? GroupId { get; set; }
+        public virtual Group Group { get; set; }
     }
 }

@@ -49,8 +49,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Day1\DB\code_first\Context.cs" />
+    <Compile Include="Day1\DB\code_first\Group.cs" />
+    <Compile Include="Day1\DB\code_first\GroupContext.cs" />
+    <Compile Include="Day1\DB\code_first\GroupRepisitory.cs" />
     <Compile Include="Day1\DB\code_first\IRepository.cs" />
     <Compile Include="Day1\DB\code_first\Student.cs" />
+    <Compile Include="Day1\DB\code_first\StudentRepository.cs" />
     <Compile Include="Day1\Solid\D\Mobile_phone.cs" />
     <Compile Include="Day1\Solid\D\Tech.cs" />
     <Compile Include="Day1\Solid\I\Car.cs" />
@@ -68,6 +72,15 @@
     <Compile Include="Day1\Solid\S\BillViewer.cs" />
     <Compile Include="Day1\Solid\S\Item.cs" />
     <Compile Include="Day1\Solid\S\Purchase.cs" />
+    <Compile Include="Migrations\201611031954079_InitialCreate.cs" />
+    <Compile Include="Migrations\201611031954079_InitialCreate.Designer.cs">
+      <DependentUpon>201611031954079_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611032116457_AddGroup.cs" />
+    <Compile Include="Migrations\201611032116457_AddGroup.Designer.cs">
+      <DependentUpon>201611032116457_AddGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -77,6 +90,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Day1\DB\db_first\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201611031954079_InitialCreate.resx">
+      <DependentUpon>201611031954079_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611032116457_AddGroup.resx">
+      <DependentUpon>201611032116457_AddGroup.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

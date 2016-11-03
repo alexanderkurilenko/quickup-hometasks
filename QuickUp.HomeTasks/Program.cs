@@ -11,26 +11,27 @@ namespace QuickUp.HomeTasks
     {
         static void Main(string[] args)
         {
-            using (StudentContext db = new StudentContext())
+
+            Group gr = new Group { Faculty = "FKSIS", Number = 4 };
+            Student st1 = new Student { Name = "Tom", Age = 33,Group=gr};
+            Student st2 = new Student { Name = "Sasha", Age = 28 };
+             
+            StudentRepository db = new StudentRepository();
+            GroupRepository g = new GroupRepository();
+               
+            db.Create(st1);
+            db.Create(st2);
+            db.Save();
+            g.Save();
+            Console.WriteLine("Объекты успешно сохранены");
+
+            IEnumerable<Student> c = db.GetItemList();
+            foreach (Student s in c)
             {
-                // создаем два объекта User
-                Student user1 = new Student { Name = "Tom", Age = 33 };
-                Student user2 = new Student { Name = "Sam", Age = 26 };
-
-                // добавляем их в бд
-                db.Students.Add(user1);
-                db.Students.Add(user2);
-                db.SaveChanges();
-                Console.WriteLine("Объекты успешно сохранены");
-
-                // получаем объекты из бд и выводим на консоль
-                var users = db.Students;
-                Console.WriteLine("Список объектов:");
-                foreach (Student u in users)
-                {
-                    Console.WriteLine("{0}.{1} - {2}", u.Id, u.Name, u.Age);
-                }
+                Console.Write(s.Name);
             }
+              
+            
             Console.Read();
         }
     }
