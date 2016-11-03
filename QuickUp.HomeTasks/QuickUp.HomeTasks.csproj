@@ -48,6 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Day1\DB\code_first\Context.cs" />
+    <Compile Include="Day1\DB\code_first\IRepository.cs" />
+    <Compile Include="Day1\DB\code_first\Student.cs" />
     <Compile Include="Day1\Solid\D\Mobile_phone.cs" />
     <Compile Include="Day1\Solid\D\Tech.cs" />
     <Compile Include="Day1\Solid\I\Car.cs" />
@@ -73,7 +76,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Day1\DB\code_first\" />
     <Folder Include="Day1\DB\db_first\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

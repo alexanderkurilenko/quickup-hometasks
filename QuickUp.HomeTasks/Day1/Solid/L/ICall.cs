@@ -8,6 +8,6 @@ namespace QuickUp.HomeTasks.Day1.Solid.L
 {
     interface ICall
     {
-        public void call();
+        void call();
     }
 }
