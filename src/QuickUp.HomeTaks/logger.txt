@@ -1,0 +1,177 @@
+An unhandled exception has occurred while executing the request
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+An unhandled exception has occurred while executing the request
+Request starting HTTP/1.1 GET http://localhost:53559/students  
+No actions matched the current request
+No actions matched the current request
+Request finished in 42.744ms 404 
+Request finished in 1575.0349ms 500 text/html; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:53559/students/list  
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Processing request hello
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[ID], [s].[EnrollmentDate], [s].[FirstMidName], [s].[GroupId], [s].[LastName]
+FROM [Student] AS [s]
+Executed action QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) in 4793.7999ms
+Request finished in 4854.3953ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:53559/groups/list  
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+An unhandled exception has occurred while executing the request
+An unhandled exception has occurred while executing the request
+Request finished in 287.5004ms 500 text/html; charset=utf-8
+Request finished in 287.5004ms 500 text/html; charset=utf-8
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+An unhandled exception has occurred while executing the request
+Request finished in 992.688ms 500 text/html; charset=utf-8
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 5101.2497ms
+Request finished in 5346.5384ms 200 application/json; charset=utf-8
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 6094.645ms
+Request finished in 6395.1743ms 200 application/json; charset=utf-8
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (55ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 5424.0161ms
+Request finished in 5678.1493ms 200 application/json; charset=utf-8
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 5379.0766ms
+Request finished in 5655.5804ms 200 application/json; charset=utf-8
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 5806.5432ms
+Request finished in 6107.3342ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:53559/groups/list  
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 780.1217ms
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 780.1217ms
+Request finished in 996.7678ms 200 application/json; charset=utf-8
+Request finished in 996.7678ms 200 application/json; charset=utf-8
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+An unhandled exception has occurred while executing the request
+The response has already started, the error page middleware will not be executed.
+Connection id "0HL09IRS5A2B8": An unhandled exception was thrown by the application.
+Request finished in 5196.3622ms 200 
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 5500.4329ms
+Request finished in 5769.1177ms 200 application/json; charset=utf-8
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (83ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 5284.7632ms
+Request finished in 5593.8972ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:53559/groups/4  
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ReadGroup (QuickUp.HomeTaks) with arguments (4) - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ReadGroup (QuickUp.HomeTaks) with arguments (4) - ModelState is Valid
+Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[ID], [x].[Faculty], [x].[Number]
+FROM [Group] AS [x]
+WHERE [x].[ID] = 4
+Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[ID], [x].[Faculty], [x].[Number]
+FROM [Group] AS [x]
+WHERE [x].[ID] = 4
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ReadGroup (QuickUp.HomeTaks) in 1718.5406ms
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ReadGroup (QuickUp.HomeTaks) in 1718.5406ms
+Request finished in 1922.0128ms 200 application/json; charset=utf-8
+Request finished in 1922.0128ms 200 application/json; charset=utf-8
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+An unhandled exception has occurred while executing the request
+The response has already started, the error page middleware will not be executed.
+Connection id "0HL09OU9RRMA0": An unhandled exception was thrown by the application.
+Request finished in 22250.0109ms 500 application/json
