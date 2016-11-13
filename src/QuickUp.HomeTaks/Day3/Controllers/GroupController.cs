@@ -34,11 +34,6 @@ namespace QuickUp.HomeTaks.Day3.Controllers
             var logger = _loggerfactory.CreateLogger("ListLogger");
             var students = _groupRepository.GetList();
             logger.LogInformation("all students were  shown", _groupRepository.GetList());
-            string sMessage = "test";
-            if (sMessage.Length > 0)
-            {
-                throw new MyAppException("My Custom Exception");
-            }
             return students;
         }
 

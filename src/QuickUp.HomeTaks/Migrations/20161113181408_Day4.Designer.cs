@@ -8,9 +8,10 @@ using QuickUp.HomeTaks.Day2.Models;
 namespace QuickUp.HomeTaks.Migrations
 {
     [DbContext(typeof(UniverContext))]
-    partial class UniverContextModelSnapshot : ModelSnapshot
+    [Migration("20161113181408_Day4")]
+    partial class Day4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.1")

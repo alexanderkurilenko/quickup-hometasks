@@ -14,6 +14,8 @@ using System.IO;
 using QuickUp.HomeTaks.Day3;
 using QuickUp.HomeTaks.Day3.Logger;
 using QuickUp.HomeTaks.Day3.Filters;
+using QuickUp.HomeTaks.Day4.Model;
+using QuickUp.HomeTaks.Day4;
 
 namespace QuickUp.HomeTaks
 {
@@ -21,42 +23,46 @@ namespace QuickUp.HomeTaks
     {
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
-        private IHostingEnvironment _env;
-        public IConfiguration AppConfiguration { get; set; }
+        public IConfiguration AppConfiguration { get;  }
 
         public Startup(IHostingEnvironment env)
         {
-            _env = env;
 
             var builder = new ConfigurationBuilder();
-            builder.SetBasePath(Directory.GetCurrentDirectory());
-            builder.AddJsonFile("appsettings.json");
+            builder.SetBasePath(env.ContentRootPath);
+            builder.AddJsonFile("appsettings.json",false,true);
             AppConfiguration = builder.Build();
            
         }
 
         public void ConfigureServices(IServiceCollection services)
         {
-            var connection = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=MyUniver;Integrated Security=True";
+            //var connection = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=MyUniver;Integrated Security=True";
             services.AddDbContext<UniverContext>(options =>
-            options.UseSqlServer(connection));
+            options.UseSqlServer(AppConfiguration.GetConnectionString("DefaultConnection"),
+            b => b.MigrationsAssembly("QuickUp.HomeTaks")));
             services.AddMvc(options=>
             {
                 options.Filters.Add(new TimeExecutionFilterAttribute());
                 options.Filters.Add(typeof(CustomExeptionFilter));
             });
-            services.AddDbContext<UniverContext>(options =>
-            options.UseInMemoryDatabase());
+            
             services.AddScoped<StudentRepository>();
             services.AddScoped<GroupRepository>();
             services.AddScoped<FileLoggerProvider>();
             services.AddScoped<ViewModel<Group>>();
             services.AddScoped<ViewModel<Student>>();
         }
+        
+        public void ConfigureLog(IApplicationBuilder app)
+        { 
+            app.MapRLogger();
+        }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory,StudentRepository context)
         {
+            app.UseMvc();
             loggerFactory.AddConsole();
 
             if (env.IsDevelopment())
@@ -64,14 +70,8 @@ namespace QuickUp.HomeTaks
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-            });
-
-            //context.Create(new Student { FirstMidName = "VAsua", GroupId = 2 });
+            app.Map("/products", ConfigureLog);
+           
         }
     }
 }

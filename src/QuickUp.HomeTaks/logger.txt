@@ -175,3 +175,284 @@ An unhandled exception has occurred while executing the request
 The response has already started, the error page middleware will not be executed.
 Connection id "0HL09OU9RRMA0": An unhandled exception was thrown by the application.
 Request finished in 22250.0109ms 500 application/json
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Processing request Students added
+Processing request Students added
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ReadGroup (QuickUp.HomeTaks) with arguments (0) - ModelState is Invalid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ReadGroup (QuickUp.HomeTaks) with arguments (0) - ModelState is Invalid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ReadGroup (QuickUp.HomeTaks) with arguments (0) - ModelState is Invalid
+Request starting HTTP/1.1 GET http://localhost:53559/groups  
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Request starting HTTP/1.1 GET http://localhost:53559/students/2  
+Request starting HTTP/1.1 GET http://localhost:53559/students/2  
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ReadStudent (QuickUp.HomeTaks) with arguments (2) - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ReadStudent (QuickUp.HomeTaks) with arguments (2) - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ReadStudent (QuickUp.HomeTaks) with arguments (2) - ModelState is Valid
+An exception occurred in the database while iterating the results of a query.
+System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__15`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+An exception occurred in the database while iterating the results of a query.
+System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__15`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+An exception occurred in the database while iterating the results of a query.
+System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__15`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+An exception occurred in the database while iterating the results of a query.
+System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_1`1.<CompileQuery>b__1(QueryContext qc)
+An exception occurred in the database while iterating the results of a query.
+System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_1`1.<CompileQuery>b__1(QueryContext qc)
+An exception occurred in the database while iterating the results of a query.
+System.InvalidOperationException: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.<_ShapedQuery>d__3`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure , QueryContext )
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass19_1`1.<CompileQuery>b__1(QueryContext qc)
+An unhandled exception has occurred while executing the request
+An unhandled exception has occurred while executing the request
+An unhandled exception has occurred while executing the request
+The response has already started, the error page middleware will not be executed.
+The response has already started, the error page middleware will not be executed.
+The response has already started, the error page middleware will not be executed.
+Connection id "0HL0ABNTEIR3O": An unhandled exception was thrown by the application.
+Connection id "0HL0ABNTEIR3O": An unhandled exception was thrown by the application.
+Connection id "0HL0ABNTEIR3O": An unhandled exception was thrown by the application.
+Request finished in 41585.4258ms 404 application/json
+Request finished in 41585.4258ms 404 application/json
+Request finished in 41585.4258ms 404 application/json
+Request starting HTTP/1.1 GET http://localhost:53559/favicon.ico  
+Request starting HTTP/1.1 GET http://localhost:53559/favicon.ico  
+Request starting HTTP/1.1 GET http://localhost:53559/favicon.ico  
+No actions matched the current request
+No actions matched the current request
+No actions matched the current request
+Request finished in 324.4978ms 404 
+Request finished in 324.4978ms 404 
+Request finished in 324.4978ms 404 
+Executed DbCommand (54ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed DbCommand (54ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed DbCommand (54ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[ID], [x].[Faculty], [x].[Number]
+FROM [Group] AS [x]
+WHERE [x].[ID] = 0
+Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[ID], [x].[Faculty], [x].[Number]
+FROM [Group] AS [x]
+WHERE [x].[ID] = 0
+Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[ID], [x].[Faculty], [x].[Number]
+FROM [Group] AS [x]
+WHERE [x].[ID] = 0
+all students were  shown
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (55ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 10266.6574ms
+Request finished in 10565.7163ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:53559/students/list  
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ReadStudent (QuickUp.HomeTaks) with arguments (0) - ModelState is Invalid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ReadStudent (QuickUp.HomeTaks) with arguments (0) - ModelState is Invalid
+Request starting HTTP/1.1 GET http://localhost:53559/students  
+Request starting HTTP/1.1 GET http://localhost:53559/students  
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Processing request Students added
+Processing request Students added
+Processing request Students added
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[ID], [s].[EnrollmentDate], [s].[FirstMidName], [s].[GroupId], [s].[LastName]
+FROM [Student] AS [s]
+Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[ID], [s].[EnrollmentDate], [s].[FirstMidName], [s].[GroupId], [s].[LastName]
+FROM [Student] AS [s]
+Executed DbCommand (17ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[ID], [s].[EnrollmentDate], [s].[FirstMidName], [s].[GroupId], [s].[LastName]
+FROM [Student] AS [s]
+Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[ID], [x].[EnrollmentDate], [x].[FirstMidName], [x].[GroupId], [x].[LastName]
+FROM [Student] AS [x]
+WHERE [x].[ID] = 0
+Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[ID], [x].[EnrollmentDate], [x].[FirstMidName], [x].[GroupId], [x].[LastName]
+FROM [Student] AS [x]
+WHERE [x].[ID] = 0
+Executed action QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) in 13234.0651ms
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (393ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (28ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 13313.6543ms
+Request finished in 15935.6314ms 200 application/json; charset=utf-8
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (59ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 6893.8149ms
+Request finished in 8640.084ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:53559/products  
+Executing action method QuickUp.HomeTaks.Day4.ProductController.ListProducts (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ID], [p].[IPAdress], [p].[Referer]
+FROM [Product] AS [p]
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action QuickUp.HomeTaks.Day4.ProductController.ListProducts (QuickUp.HomeTaks) in 506.551ms
+Request finished in 727.8995ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:53559/products  
+Executing action method QuickUp.HomeTaks.Day4.ProductController.ListProducts (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[ID], [p].[IPAdress], [p].[Referer]
+FROM [Product] AS [p]
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action QuickUp.HomeTaks.Day4.ProductController.ListProducts (QuickUp.HomeTaks) in 238.0073ms
+Request finished in 443.3044ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:53559/api/products  
+Request finished in 83.82ms 200 
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ReadGroup (QuickUp.HomeTaks) with arguments (0) - ModelState is Invalid
+Executed DbCommand (51ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [x].[ID], [x].[Faculty], [x].[Number]
+FROM [Group] AS [x]
+WHERE [x].[ID] = 0
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ReadGroup (QuickUp.HomeTaks) in 6772.553ms
+Finished handling request.
+Request finished in 7389.3096ms 204 
+Request starting HTTP/1.1 GET http://localhost:53559/groups  
+Handling request: /groups
+Remote IP::1
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (59ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 7489.1209ms
+Request finished in 8029.2276ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:53559/products  
+Handling request: 
+Remote IP::1
+Finished handling request.
+Request finished in 260.133ms 404 
+Request starting HTTP/1.1 GET http://localhost:53559/products  
+Handling request: 
+Remote IP::1
+Finished handling request.
+Request finished in 258.8001ms 404 
+Executing action method QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executed DbCommand (97ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+all students were  shown
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [g].[ID], [g].[Faculty], [g].[Number]
+FROM [Group] AS [g]
+Executed action QuickUp.HomeTaks.Day3.Controllers.GroupController.ListGroup (QuickUp.HomeTaks) in 7016.3462ms
+Request finished in 7507.672ms 200 application/json; charset=utf-8
+Request starting HTTP/1.1 GET http://localhost:53559/students  
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Executing action method QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) with arguments () - ModelState is Valid
+Processing request Students added
+Processing request Students added
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+Executed DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[ID], [s].[EnrollmentDate], [s].[FirstMidName], [s].[GroupId], [s].[LastName]
+FROM [Student] AS [s]
+Executed DbCommand (45ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [s].[ID], [s].[EnrollmentDate], [s].[FirstMidName], [s].[GroupId], [s].[LastName]
+FROM [Student] AS [s]
+Executed action QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) in 921.8468ms
+Executed action QuickUp.HomeTaks.Day3.Controllers.StudentController.ListStudents (QuickUp.HomeTaks) in 921.8468ms
+Request finished in 1269.0871ms 200 application/json; charset=utf-8
+Request finished in 1269.0871ms 200 application/json; charset=utf-8
